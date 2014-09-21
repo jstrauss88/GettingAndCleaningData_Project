@@ -22,3 +22,22 @@ The Resultant data set contains 68 fields
   - The number corresponding to the person being measured, numbered 1-30
 
 -  the following are time measurements
+  - tBodyAcc-XYZ
+  - tGravityAcc-XYZ
+  - tBodyAccJerk-XYZ
+  - tBodyGyro-XYZ
+  - tBodyGyroJerk-XYZ
+  - tBodyAccMag
+  - tGravityAccMag
+  - tBodyAccJerkMag
+  - tBodyGyroMag
+  - tBodyGyroJerkMag
+  
+-  the following are time measurements
+  - fBodyAcc-XYZ
+  - fBodyAccJerk-XYZ
+  - fBodyGyro-XYZ
+  - fBodyAccMag
+  - fBodyAccJerkMag
+  - fBodyGyroMag
+  - fBodyGyroJerkMag
