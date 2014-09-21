@@ -13,12 +13,12 @@ This code book with describe in more detail the data that is in the TidyData2 da
 
 The Resultant data set contains 68 fields
 
--Activity
+-   Activity
 
--- The activity the subject was performing: laying, sitting, standing, walking, walking upstairs and walking downstairs
+--  The activity the subject was performing: laying, sitting, standing, walking, walking upstairs and walking downstairs
 
--Subject
+-   Subject
 
---The number corresponding to the person being measured, numbered 1-30
+--  The number corresponding to the person being measured, numbered 1-30
 
--the following are time measurements
+-  the following are time measurements
