@@ -24,7 +24,7 @@ The Resultant data set contains 68 fields
 
 The average of the mean and standard deviation are taken for the below measurements.  XYZ denotes that the measurement apears 3 times in the data set, 1 for each dimension.  Each measurment is normalized to be with -1 and 1
 
-  -  the following are time measurements
+  -  the following are time domain measurements
     - tBodyAcc-XYZ
     - tGravityAcc-XYZ
     - tBodyAccJerk-XYZ
@@ -36,7 +36,7 @@ The average of the mean and standard deviation are taken for the below measureme
     - tBodyGyroMag
     - tBodyGyroJerkMag
     
-  -  the following are frequency measurements
+  -  the following are frequency domain measurements
     - fBodyAcc-XYZ
     - fBodyAccJerk-XYZ
     - fBodyGyro-XYZ
