@@ -29,30 +29,33 @@ The 8 files that contain the data and labels required are imported into R.  The 
 
 ###1.  Merges the training and the test sets to create one data set.
 
-'x_train' and 'x_test' are row binded to each other
-'subject_train' and 'subject_test' are row binded to each other
-'y_train' and 'y_test' are row binded to each other
+-  'x_train' and 'x_test' are row binded to each other
+
+-  'subject_train' and 'subject_test' are row binded to each other
+
+-  'y_train' and 'y_test' are row binded to each other
 
 the three data sets are then column binded to each other to create the data set 'TidyData'
 
 
 ###2.  Extracts only the measurements on the mean and standard deviation for each measurement.
 
-'features' is reduced so that it only contains the varaibles with mean() or std() in column V2.
+-  'features' is reduced so that it only contains the varaibles with mean() or std() in column V2.
 
-'TidyData' is reduced by taking only the column numbers that corresponded with the values in the reduced featurse$V1 as well as the two ending columns containing activity labels and subject number
+-  'TidyData' is reduced by taking only the column numbers that corresponded with the values in the reduced featurse$V1 as well as the two ending columns containing activity labels and subject number
 
 
 ###3.  Uses descriptive activity names to name the activities in the data set
 
-'TidyData' is merged with 'activity_labels' on v1.2 in 'TidyData' and V1 in 'activity_labels'.  This gets V2 from 'activity_labels' which contains activity names, into 'TidyData'
-The numerical column corresponding with the names is dropped for the data frame
+-  'TidyData' is merged with 'activity_labels' on v1.2 in 'TidyData' and V1 in 'activity_labels'.  This gets V2 from 'activity_labels' which contains activity names, into 'TidyData'
 
+-  The numerical column corresponding with the names is dropped for the data frame
 
 ###4.  Appropriately labels the data set with descriptive variable names. 
 
-columns are remained in 'TidyData' by using a vector that combines the reduced 'features' set with the strings "subject" and "activity"
+-  columns are remained in 'TidyData' by using a vector that combines the reduced 'features' set with the strings "subject" and "activity"
 
 ###5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-A new data frame called 'TidyData2' is created from 'TidyData' using ddply from the plyr package to subset 'TidyData' by subject and activity and then taking the mean of each measurement column.
-Using write.table, 'TidyData2' is exported to the working directory as a text file
+-  A new data frame called 'TidyData2' is created from 'TidyData' using ddply from the plyr package to subset 'TidyData' by subject and activity and then taking the mean of each measurement column.
+
+-  Using write.table, 'TidyData2' is exported to the working directory as a text file
