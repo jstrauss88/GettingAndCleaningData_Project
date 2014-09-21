@@ -22,7 +22,7 @@ The Resultant data set contains 68 fields
   - The number corresponding to the person being measured, numbered 1-30
 
 
--The average of the mean and standard deviation are taken for the below measurements.  XYZ denotes that the measurement apears 3 times in the data set, 1 for each dimension.  Each measurment is normalized to be with -1 and 1
+The average of the mean and standard deviation are taken for the below measurements.  XYZ denotes that the measurement apears 3 times in the data set, 1 for each dimension.  Each measurment is normalized to be with -1 and 1
 
   -  the following are time measurements
     - tBodyAcc-XYZ
